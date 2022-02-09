@@ -39,7 +39,7 @@ public class ProductService implements IDataAccess<ProductModel>
 	@Override
 	public List<ProductModel> findAll() {
 		//SQL query to select all from products
-		String sql = "SELECT * FROM PRODUCTS";
+		String sql = "SELECT * FROM products";
 		//create structure to hold products
 		List<ProductModel> products = new ArrayList<ProductModel>();
 		try 
